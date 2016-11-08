@@ -1,0 +1,75 @@
+.chap1{
+	background-color: yellow;
+	width: 150px;
+	height: 550px;
+	
+	float: left;
+}
+.chap2{
+	background-color: yellow;
+	width: 150px;
+	height: 550px;
+
+	
+	float: right;
+}
+.chap3{
+	background-color: blue;
+	margin: auto;
+	width: 500px;
+	height:550px;
+
+
+	position: relative;
+	top: 0;left: 0;right: 0;
+
+
+}
+.chap3content
+{
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	position: absolute;
+	top: 0;left: 0;right: 0;bottom: 0;
+}
+.chap2content{
+	background-color: black;
+	width: 50px;
+	height:50px;
+	position: relative;  
+	left:50%;
+	top: 50%;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+.chap1content{
+	background-color: black;
+	width: 50px;
+	height:50px;
+	position: relative;  
+	left:50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+}
+.chap4{
+	background-color: red;
+	height: 100px;
+	display: table;
+	width: 123px;
+}
+
+.chap4table{
+	background-color: green;
+	height: 50px;
+	display: table-cell;  
+  	vertical-align: middle;  
+}
+.chap4tableinner{
+	
+	
+	 width: 50%;  
+  margin: 0 auto;  
+
+}

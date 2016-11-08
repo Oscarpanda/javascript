@@ -1,0 +1,22 @@
+.title{
+	background-color: yellow;
+	float: left;
+	font-size: 190%;
+	margin-left: 1%;
+	/*height: 10px;*/
+}
+.content {
+	display: none;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100px;
+	bottom: 0;
+}
+.chap1{
+	display: block;
+}
+.chosed{
+	background-color: blue;
+}
