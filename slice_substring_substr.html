@@ -1,0 +1,29 @@
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+   
+</head>
+<body>
+	<script type="text/javascript">
+
+	var a ="hello world";
+	console.log(a.slice(3));//lo world
+	console.log(a.substring(3));//lo world
+	console.log(a.substr(3));//lo world
+
+	console.log(a.slice(3,4));//l
+	console.log(a.substring(3,4));//l
+	console.log(a.substr(3,4));//lo w
+
+	console.log(a.slice(-3));//=slice(len-3) rld
+	console.log(a.substring(-3));//substring(0) hello world
+	console.log(a.substr(-3));//=substr(len-3)  rld  
+
+	console.log(a.slice(3,-4));//slice(3,8)
+	console.log(a.substring(3,-4));//substring(3,0)
+	console.log(a.substr(3,-4));//substr(3,0)
+	//slice 将所有的负数都转换成 和长度相加的数
+	//substring将所有负数转换为0
+	//substr   第一个参数和长度相加 第二个为0
+	</script>
+</body>
