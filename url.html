@@ -1,0 +1,43 @@
+<head>
+  <meta charset="UTF-8">
+  <title>fenlen</title>
+   <link href="fenlan.css" rel="stylesheet" />
+   <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+	// <script type="text/javascript">
+	// var url ="www.ali.com/sdfas/2rwsd/sfasd.php?dfas=1123&sadfa=1324&c=1231";
+	// var index=url.indexOf("?");
+	// var url=url.slice(index+1);
+	// url=url.split("&");
+	// // alert(url);
+	// var result= new Array();
+	// for (var i in url){
+	// 	i1=url[i].split("=");
+	// 	console.log(i1);
+	// 	result[i1[0]]=i1[1];
+
+	// }
+	// console.log(result);
+	// var text="sdcatbatdatsatfat";
+	// var pattern=/.at/;
+	// console.log(text.match(pattern));
+	// // console.log(index);
+	// function url(url){
+	// 	var 
+	// 	i = 1;
+	// }
+	var text="cat,bat,dat,fat";
+	var p=/.at/g;
+	var match=p.exec(text)
+	var match2=p.exec(text)
+	console.log(match[0]);
+	console.log(match2);
+
+	console.log(p.source);
+	console.log(text.replace("at","ond"));
+	console.log(text.replace(/at/g,"ond"));
+
+	// console.log("hello".concat("world"));
+	</script>
+</body>
