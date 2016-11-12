@@ -5,7 +5,7 @@
    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
-	// <script type="text/javascript">
+	<script type="text/javascript">
 	// var url ="www.ali.com/sdfas/2rwsd/sfasd.php?dfas=1123&sadfa=1324&c=1231";
 	// var index=url.indexOf("?");
 	// var url=url.slice(index+1);
@@ -27,17 +27,50 @@
 	// 	var 
 	// 	i = 1;
 	// }
-	var text="cat,bat,dat,fat";
-	var p=/.at/g;
-	var match=p.exec(text)
-	var match2=p.exec(text)
-	console.log(match[0]);
-	console.log(match2);
+	// var text="cat,bat,dat,fat";
+	// var p=/.at/g;
+	// var match=p.exec(text)
+	// var match2=p.exec(text)
+	// console.log(match[0]);
+	// console.log(match2);
 
-	console.log(p.source);
-	console.log(text.replace("at","ond"));
-	console.log(text.replace(/at/g,"ond"));
+	// console.log(p.source);
+	// console.log(text.replace("at","ond"));
+	// console.log(text.replace(/at/g,"ond"));
+	// var text="my roommate are shits";
+	// var pattern=/(.)m(.)/g;
+	// if(pattern.test(text)){
+	// 	console.log(RegExp.input);
+	// 	console.log(RegExp["$`"]);
+	// 	console.log(RegExp["$1"]);
 
+	// }
+	// function factorial(num){
+	// 	if (num<=1){
+	// 		return 1;
+	// 	}
+	// 	else{
+	// 		return num*factorial(num-1);
+	// 	}
+	// }
+	// console.log(factorial(4));
+	function factorial(num){
+		if (num<=1){
+			return 1;
+		}
+		else{
+			return num*arguments.callee(num-1);
+		}
+	}
+	var truefactorial = factorial;
+	// function factorial(){
+	// 	return 0;
+	// }
+	factorial = function(){
+		return 0;
+	}
+	console.log(truefactorial(5));
+	console.log(factorial(5));
 	// console.log("hello".concat("world"));
 	</script>
 </body>
